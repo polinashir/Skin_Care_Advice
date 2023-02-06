@@ -1,0 +1,1013 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/33602/ontologies/2023/1/untitled-ontology-21#"
+     xml:base="http://www.semanticweb.org/33602/ontologies/2023/1/untitled-ontology-21"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-21="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/33602/ontologies/2023/1/untitled-ontology-21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#has_active_substance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#has_active_substance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#isInNeedOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#isInNeedOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#isNeededFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#isNeededFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#isUsedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#isUsedFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/33602/ontologies/2023/1/untitled-ontology-21#concentration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/33602/ontologies/2023/1/untitled-ontology-21#concentration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Alpha_Hydroxy_Acids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Alpha_Hydroxy_Acids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Astringent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Astringent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Butter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Butter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Ceramides -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Ceramides">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_sunscreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_sunscreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Cleanser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Cleanser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Cream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Cream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Essence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Essence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Exfoliant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Exfoliant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Gel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Gel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Lipo_Hydroxy_Acids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Lipo_Hydroxy_Acids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Lotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Lotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Mask -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Mask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Micellar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Micellar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Moisturizer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Moisturizer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Oil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Oil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Pads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Pads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Peptides -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Peptides">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Physical_sunscreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Physical_sunscreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Poly_Hydroxy_Acids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Poly_Hydroxy_Acids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Powder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Powder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Scrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Scrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Serum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Serum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Spray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Spray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Sunscreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Sunscreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Toner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Toner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Treatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Wash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Wash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#acne_fighting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#acne_fighting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#combination_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oily_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#allantoin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#allantoin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_redness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#alpha_arbutin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#alpha_arbutin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#brightening"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_aging -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_aging">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#combination_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#dry_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#normal_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oily_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sensitive_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_redness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_redness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sensitive_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#antioxidant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#antioxidant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#normal_skin"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#brightening"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#avobenzone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#avobenzone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_sunscreen"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#avocado_peptide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#avocado_peptide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Peptides"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_aging"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#azelaic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#azelaic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_redness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#benzoyl_peroxide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#benzoyl_peroxide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#acne_fighting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#beta_hydroxy_acids -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#beta_hydroxy_acids">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#bisabolol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#bisabolol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_redness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#brightening -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#brightening">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#combination_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oily_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#capryloyl_salicylic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#capryloyl_salicylic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Lipo_Hydroxy_Acids"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#ceramide_eos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#ceramide_eos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Ceramides"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#emollients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#ceramide_ng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#ceramide_ng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Ceramides"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#emollients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#ceramide_ns -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#ceramide_ns">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Ceramides"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#emollients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#citric_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#citric_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Alpha_Hydroxy_Acids"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#cocoa_butter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#cocoa_butter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#emollients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#combination_skin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#combination_skin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#control_sebum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#control_sebum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#combination_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oily_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#copper_peptides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#copper_peptides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_aging"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#dry_skin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#dry_skin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#emollients -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#emollients">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#dry_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#combination_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oily_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#ferulic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#ferulic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#antioxidant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#gluconolactone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#gluconolactone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Poly_Hydroxy_Acids"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#glycerin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#glycerin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#moisturizing_and_hydratation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#glycolic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#glycolic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Alpha_Hydroxy_Acids"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#hyaluronic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#hyaluronic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#moisturizing_and_hydratation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#lactic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#lactic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Alpha_Hydroxy_Acids"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#lactobionic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#lactobionic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Poly_Hydroxy_Acids"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#malic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#malic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Alpha_Hydroxy_Acids"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#mandelic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#mandelic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Alpha_Hydroxy_Acids"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#moisturizing_and_hydratation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#moisturizing_and_hydratation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#combination_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#dry_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#normal_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sensitive_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#niacinamide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#niacinamide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#brightening"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#normal_skin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#normal_skin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#octocrylene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#octocrylene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_sunscreen"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#octysalate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#octysalate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_sunscreen"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oily_skin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oily_skin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oxybenzone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oxybenzone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_sunscreen"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#physical_exfoliants -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#physical_exfoliants">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#resveratrol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#resveratrol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#antioxidant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#salicylic_Acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#salicylic_Acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#acne_fighting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sensitive_skin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sensitive_skin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#shea_butter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#shea_butter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#emollients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#soy-rice_peptide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#soy-rice_peptide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Peptides"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#anti_aging"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Usage"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#combination_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#dry_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#normal_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#oily_skin"/>
+        <untitled-ontology-21:isNeededFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sensitive_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#tartaric_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#tartaric_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Alpha_Hydroxy_Acids"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_exfoliants"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#exfoliating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#tinosorb_m -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#tinosorb_m">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_sunscreen"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#tinosorb_s -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#tinosorb_s">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Chemical_sunscreen"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#titanium_dioxyde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#titanium_dioxyde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Physical_sunscreen"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#tranexamic_acid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#tranexamic_acid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#brightening"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#urea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#urea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#moisturizing_and_hydratation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#vitamin_c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#vitamin_c">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#brightening"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#vitamin_e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#vitamin_e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#antioxidant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#zinc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#zinc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#control_sebum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#zinc_oxyde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#zinc_oxyde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Physical_sunscreen"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#sun_protection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#egcg/green_tea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#egcg/green_tea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/33602/ontologies/2023/0/untitled-ontology-21#Skin_care"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#Active_Substance"/>
+        <untitled-ontology-21:isUsedFor rdf:resource="http://www.semanticweb.org/polin/ontologies/2023/0/untitled-ontology-21#antioxidant"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
