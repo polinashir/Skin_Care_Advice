@@ -62,6 +62,7 @@ ontology_actifs=['hyaluronic_acid', 'glycerin', 'urea', 'vitamin_c', 'vitamin_e'
 product_types=['Oil', 'Lotion', 'Wash', 'Cleanser', 'Cream', 'Gel', 'Serum', 'Scrub', 'Astringent', 'Moisturizer', 'Toner', 'Solution', 'Essence', 'Treatment', 'Spray', 'Pads', 'Mask', 'Powder',  'Sunscreen', 'Exfoliant', 'Butter']
 product_types_all=[['Oil'], ['Lotion'], ['Wash', 'Facewash'], ['Cleanser'], ['Cream'], ['Gel'], ['Serum'], ['Scrub', 'Enzyme'], ['Astringent'], ['Moisturizer', 'Moisturizing'], ['Toner'], ['Solution'], ['Essence'], ['Treatment'], ['Spray'], ['Pads'], ['Mask'], ['Powder'],  ['Sunscreen', 'SPF', 'Sun block'], ['Exfoliant'], ['Butter']]
 products=extract_products(all_links, product_types_all)
+
 products_formatted=text_formatting(products)
 #products_formatted_flat=[item for sublist in products_formatted for item in sublist]
 percantages = get_percentage(all_links)
@@ -71,7 +72,7 @@ product_list=text_formatting(all_links)
 #    clean_product_sublist=[x for x in list_products if x in set(products_formatted_flat)]
     #clean_product_list.append(clean_product_sublist)
 #print(products)
-
+"""""
 for i in range(len(product_types)):
     parse_to_tree.add_product(products_formatted[i], product_types[i])
     print('added product', i)
@@ -81,4 +82,11 @@ for i in range(len(ontology_actifs)):
 for i in range(len(percantages)):
    parse_to_tree.add_percantage(product_list[i], "concentration", percantages[i])
    print('added concentration', i)
+
+already_added_first=[]
+for i in range(len(ontology_actifs)):
+    already_added_second=parse_to_tree.add_price(product_list[i], already_added_first)
+    already_added_first=already_added_second
+    print('added price', i)
 parse_to_tree.save()
+"""

@@ -22,5 +22,3 @@ def scrap():
     with open('outfile', 'wb') as fp:
         pickle.dump(all_links, fp)
     return all_links
-
-

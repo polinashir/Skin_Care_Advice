@@ -1,5 +1,6 @@
 from rdflib import Graph, URIRef, Literal, Namespace
 from rdflib.namespace import DC, DCTERMS, DOAP, FOAF, SKOS, OWL, RDF, RDFS, VOID, XMLNS, XSD
+import random
 
 g = Graph()
 g.parse("C:/Users/polin/PycharmProjects/Skin_Care_Advice/untitled-ontology-21", format = "xml")
@@ -24,6 +25,13 @@ def add_percantage(list_prod, pred, section):
     for (prod, concent) in zip(list_prod, section):
         if(concent!='NaN'):
             add_property(prod, pred, concent)
+def add_price(list_prod, already_added):
+    for prod in list_prod:
+        if(prod not in already_added):
+            add_property(prod, "price", random.randint(7, 100))
+            already_added.append(prod)
+    return(already_added)
+
 def save():
     for index, (s, p, o) in enumerate(g):
         if "has_active_substance" in s:
